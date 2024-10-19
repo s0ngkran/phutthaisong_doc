@@ -80,32 +80,32 @@ const config: Config = {
           label: "About",
           position: "left",
         },
-        {
-          to: "/docs/request-a-new-feature",
-          label: "Request Feature",
-          position: "left",
-        },
-        {
-          to: "/docs/category/showcases",
-          label: "Showcases",
-          position: "left",
-        },
-        {
-          to: "/docs/category/resources",
-          label: "Resources",
-          position: "left",
-        },
+        // {
+        //   to: "/docs/request-a-new-feature",
+        //   label: "Request Feature",
+        //   position: "left",
+        // },
+        // {
+        //   to: "/docs/category/showcases",
+        //   label: "Showcases",
+        //   position: "left",
+        // },
+        // {
+        //   to: "/docs/category/resources",
+        //   label: "Resources",
+        //   position: "left",
+        // },
         // {
         //   type: "docSidebar",
         //   sidebarId: "showcaseSidebar",
         //   position: "left",
         //   label: "Showcases",
         // },
-        {
-          to: "/docs/community",
-          label: "Community",
-          position: "left",
-        },
+        // {
+        //   to: "/docs/community",
+        //   label: "Community",
+        //   position: "left",
+        // },
         // {
         //   position: 'left',
         //   label: 'Manage',
@@ -115,11 +115,12 @@ const config: Config = {
           href: "https://github.com/dev4geo/docs",
           label: "GitHub",
           position: "right",
-        }, {
-          to: "/docs/new-nav",
-          label: "New Nav",
-          position: "left",
-        }
+        },
+        //  {
+        //   to: "/docs/new-nav",
+        //   label: "New Nav",
+        //   position: "left",
+        // }
       ],
     
     },
