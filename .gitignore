@@ -2,3 +2,4 @@
 node_modules
 static/.nojekyll
 build
+.DS_Store
