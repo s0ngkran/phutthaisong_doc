@@ -3,12 +3,12 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Dev4Geo",
-  tagline: "Tech for Geologists",
-  favicon: "img/favicon.ico",
+  title: "โรงพยาบาลพุทไธสง",
+  tagline: "โรงพยาบาลพุทไธสง",
+  favicon: "img/logo.png",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://phutthaisong.vercel.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -42,8 +42,8 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/dev4geo/docs/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/dev4geo/docs/tree/main/packages/create-docusaurus/templates/shared/",
         },
         // blog: {
         //   showReadingTime: true,
@@ -67,104 +67,67 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/dev4geo_social_card.jpg",
+    image: "img/logo.png",
     navbar: {
-      title: "Dev4Geo",
+      title: "คู่มือการใช้เว็บโรงพยาบาลพุทไธสง",
       logo: {
         alt: "Logo",
-        src: "img/dev4geo_logo.jpg",
+        src: "img/logo.png",
       },
       items: [
         {
-          to: "/docs/intro",
-          label: "About",
-          position: "left",
-        },
-        // {
-        //   to: "/docs/request-a-new-feature",
-        //   label: "Request Feature",
-        //   position: "left",
-        // },
-        // {
-        //   to: "/docs/category/showcases",
-        //   label: "Showcases",
-        //   position: "left",
-        // },
-        // {
-        //   to: "/docs/category/resources",
-        //   label: "Resources",
-        //   position: "left",
-        // },
-        // {
-        //   type: "docSidebar",
-        //   sidebarId: "showcaseSidebar",
-        //   position: "left",
-        //   label: "Showcases",
-        // },
-        // {
-        //   to: "/docs/community",
-        //   label: "Community",
-        //   position: "left",
-        // },
-        // {
-        //   position: 'left',
-        //   label: 'Manage',
-        // },
-        // {to: '/blog', label: 'Blogs', position: 'left'},
-        {
-          href: "https://github.com/dev4geo/docs",
-          label: "GitHub",
+          to: "/docs/quick_start",
+          label: "วิธีใช้งานเริ่มต้น(ฉบับย่อ)",
           position: "right",
         },
-        //  {
-        //   to: "/docs/new-nav",
-        //   label: "New Nav",
-        //   position: "left",
-        // }
+        {
+          to: "/docs/FAQ",
+          label: "คำถามที่พบบ่อย",
+          position: "right",
+        },
       ],
-    
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "About",
-          items: [
-            {
-              label: "Dev4Geo",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Discord",
-              href: "https://discord.com/invite/uVdJr2Xnex",
+      // links: [
+      //   {
+      //     title: "About",
+      //     items: [
+      //       {
+      //         label: "Dev4Geo",
+      //         to: "/docs/intro",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "Community",
+      //     items: [
+      //       {
+      //         label: "Discord",
+      //         href: "https://discord.com/invite/uVdJr2Xnex",
 
-            },
-            {
-              label: "Facebook",
-              href: "https://www.facebook.com/dev4geo",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/Dev4Geo/",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "GitHub Repos",
-              href: "https://github.com/orgs/Dev4Geo/repositories",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Dev4Geo`,
+      //       },
+      //       {
+      //         label: "Facebook",
+      //         href: "https://www.facebook.com/dev4geo",
+      //       },
+      //       {
+      //         label: "GitHub",
+      //         href: "https://github.com/Dev4Geo/",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "More",
+      //     items: [
+      //       {
+      //         label: "GitHub Repos",
+      //         href: "https://github.com/orgs/Dev4Geo/repositories",
+      //       },
+      //     ],
+      //   },
+      // ],
+      copyright: `Copyright © ${new Date().getFullYear()} โรงพยาบาลพุทไธสง`,
     },
     prism: {
       theme: prismThemes.github,
